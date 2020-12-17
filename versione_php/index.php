@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="dist/app.css">
+        <link rel="stylesheet" href="../dist/app.css">
         <title>php-ajax-dischi</title>
     </head>
     <body>
@@ -17,15 +17,17 @@
         </header>
         <main>
             <div class="container">
-                <?php foreach ($dischi as $disk) { ?>
-                    <div class="cardbox text-capitalize">
-                        <img src="" alt="">
-                        <p>title : <?php  ?> </p>
-                        <p>author : <?php  ?> </p>
-                        <p>genre : <?php  ?> </p>
-                        <p>year : <?php  ?> </p>
-                    </div>
-                <?php } ?>
+                <div class="cardbox">
+                    <?php foreach ($dischi as $disk) { ?>
+                        <div class="card">
+                            <img src="<?php echo $disk['poster'] ?>" alt="image">
+                            <p>title : <?php echo $disk['title'] ?> </p>
+                            <p>author : <?php echo $disk['author'] ?> </p>
+                            <p>genre : <?php echo $disk['genre'] ?> </p>
+                            <p>year : <?php echo $disk['year'] ?> </p>
+                        </div>
+                    <?php } ?>
+                </div>
             </div>
         </main>
 
