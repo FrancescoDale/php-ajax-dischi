@@ -1,4 +1,4 @@
-<?php include 'php-ajax-dischi/versione_php/dischi.php' ?>
+<?php include 'php-ajax-dischi/versione_php/dischi.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
