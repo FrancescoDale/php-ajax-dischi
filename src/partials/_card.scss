@@ -1,0 +1,10 @@
+.card {
+    width: $size * 20;
+    padding: $size;
+    background-color: $txtColor;
+    color: #FFF;
+    margin: $size * 1.5;
+    img {
+        max-width: 100%;
+    }
+}

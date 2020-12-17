@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="cardbox">
                     <?php foreach ($dischi as $disk) { ?>
-                        <div class="card">
+                        <div class="card text-capitalize">
                             <img src="<?php echo $disk['poster'] ?>" alt="image">
                             <p>title : <?php echo $disk['title'] ?> </p>
                             <p>author : <?php echo $disk['author'] ?> </p>

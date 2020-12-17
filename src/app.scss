@@ -1,4 +1,5 @@
 @import 'partials/_variables';
+@import 'partials/_card';
 
 
 * {
@@ -10,4 +11,9 @@
 h1 {
     color: red;
     font-style: italic;
+}
+
+.cardbox {
+    display: flex;
+    flex-wrap: wrap;
 }
