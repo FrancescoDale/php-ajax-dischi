@@ -17,7 +17,9 @@
         </header>
         <main>
             <div class="container">
-
+                <?php foreach ($dischi as $disk) { ?>
+                    
+                <?php } ?>
             </div>
         </main>
 
