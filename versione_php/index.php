@@ -18,7 +18,13 @@
         <main>
             <div class="container">
                 <?php foreach ($dischi as $disk) { ?>
-                    
+                    <div class="cardbox text-capitalize">
+                        <img src="" alt="">
+                        <p>title : <?php  ?> </p>
+                        <p>author : <?php  ?> </p>
+                        <p>genre : <?php  ?> </p>
+                        <p>year : <?php  ?> </p>
+                    </div>
                 <?php } ?>
             </div>
         </main>
