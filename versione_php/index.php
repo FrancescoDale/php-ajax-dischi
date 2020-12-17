@@ -1,4 +1,4 @@
-<?php include 'dischi.php'; ?>
+<?php include 'php-ajax-dischi/versione_php/dischi.php' ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -12,6 +12,14 @@
         <title>php-ajax-dischi</title>
     </head>
     <body>
+        <header>
+            <h1 class="text-center text-capitalize mt-4 mb-4">lista dischi</h1>
+        </header>
+        <main>
+            <div class="container">
+
+            </div>
+        </main>
 
     </body>
 </html>
