@@ -1,3 +1,5 @@
+<?php include 'dischi.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
