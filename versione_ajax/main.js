@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+    var source = $("#card-template").html();
+    var template = Handlebars.compile(source);
+
     $.ajax({
         url : 'dischi.php',
         method : 'GET',
