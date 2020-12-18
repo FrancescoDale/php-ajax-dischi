@@ -6,7 +6,7 @@ $(document).ready(function() {
 
         },
         success : function() {
-
+            console.log('ok');
         },
     });
 });
