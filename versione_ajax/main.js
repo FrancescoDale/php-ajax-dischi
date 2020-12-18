@@ -5,8 +5,8 @@ $(document).ready(function() {
         error : function() {
 
         },
-        success : function() {
-            console.log('ok');
+        success : function(variable) {
+            console.log(variable);
         },
     });
 });
