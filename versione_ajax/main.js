@@ -6,7 +6,9 @@ $(document).ready(function() {
 
         },
         success : function(variable) {
-            console.log(variable);
+            for (var i = 0; i < variable.length; i++) {
+                console.log(variable[i]);
+            }
         },
     });
 });
